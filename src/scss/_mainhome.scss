@@ -1,0 +1,29 @@
+main {
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    .homecontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-family: 'Glitch Inside', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+            font-weight: normal;
+        }
+        .job {
+            text-align: center;
+            color: #C06F33;
+            font-size: 24px;
+            font-weight: normal;
+        }
+        .presentation {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+        }
+    }
+}
