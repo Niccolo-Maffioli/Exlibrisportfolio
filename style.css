@@ -17,11 +17,14 @@
   padding-left: 2vw;
 }
 .menu .logo {
-  font-family: "Glitch Inside", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 50px;
+  font-family: "Exwayer-X3eqa", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 80px;
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  color: #C06F33;
 }
 .menu .logo:hover {
   color: #FFFFFF;
+  text-shadow: 1px 0 0 #C06F33, -1px 0 0 #C06F33, 0 1px 0 #C06F33, 0 -1px 0 #C06F33, 1px 1px #C06F33, -1px -1px 0 #C06F33, 1px -1px 0 #C06F33, -1px 1px 0 #C06F33;
 }
 .menu a {
   width: 15vw;
@@ -41,6 +44,16 @@
   font-family: "Glitch-inside";
   src: url("/fonts/Glitch-inside.woff");
   src: local("Glitch-inside"), url("/fonts/Glitch-inside.woff") format("truetype");
+}
+@font-face {
+  font-family: "Exwayer-X3eqa";
+  src: url("/fonts/Exwayer-X3eqa.woff");
+  src: local("Exwayer-X3eqa"), url("/fonts/Exwayer-X3eqa.woff") format("truetype");
+}
+@font-face {
+  font-family: "Exwayer-X3eqa";
+  src: url("/fonts/Exwayer-X3eqa.ttf");
+  src: local("Exwayer-X3eqa"), url("/fonts/Exwayer-X3eqa.ttf") format("truetype");
 }
 * {
   margin: 0;
@@ -69,6 +82,16 @@ body {
   font-family: "Glitch-inside";
   src: url("/fonts/Glitch-inside.woff");
   src: local("Glitch-inside"), url("/fonts/Glitch-inside.woff") format("truetype");
+}
+@font-face {
+  font-family: "Exwayer-X3eqa";
+  src: url("/fonts/Exwayer-X3eqa.woff");
+  src: local("Exwayer-X3eqa"), url("/fonts/Exwayer-X3eqa.woff") format("truetype");
+}
+@font-face {
+  font-family: "Exwayer-X3eqa";
+  src: url("/fonts/Exwayer-X3eqa.ttf");
+  src: local("Exwayer-X3eqa"), url("/fonts/Exwayer-X3eqa.ttf") format("truetype");
 }
 * {
   margin: 0;
@@ -109,9 +132,11 @@ main .homecontainer {
           align-items: center;
 }
 main .homecontainer h1 {
-  font-family: "Glitch Inside", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 50px;
+  font-family: "Exwayer-X3eqa", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 80px;
   font-weight: normal;
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  color: #C06F33;
 }
 main .homecontainer .job {
   text-align: center;

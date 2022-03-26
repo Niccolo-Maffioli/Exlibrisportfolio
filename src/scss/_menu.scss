@@ -8,10 +8,13 @@
     position: absolute;
     padding-left: 2vw;
     .logo {
-        font-family: 'Glitch Inside', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 50px;
+        font-family: 'Exwayer-X3eqa', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 80px;
+        text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+        color: #C06F33;
         &:hover {
             color: #FFFFFF;
+            text-shadow: 1px 0 0 #C06F33, -1px 0 0 #C06F33, 0 1px 0 #C06F33, 0 -1px 0 #C06F33, 1px 1px #C06F33, -1px -1px 0 #C06F33, 1px -1px 0 #C06F33, -1px 1px 0 #C06F33;
         }
     }
     a {
