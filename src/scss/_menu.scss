@@ -18,14 +18,21 @@
     }
     .active {
         color: #C06F33;
+        text-decoration: underline;
     }
     a {
         width: 15vw;
         text-decoration: none;
         color: #ffffff;
         padding-left: 2vw;
+        z-index: 1000;
         &:hover {
             color: #C06F33;
+        }
+    }
+    .voice {
+        &:hover {
+            text-decoration: underline;
         }
     }
 }

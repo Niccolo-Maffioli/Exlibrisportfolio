@@ -27,15 +27,20 @@
 }
 .menu .active {
   color: #C06F33;
+  text-decoration: underline;
 }
 .menu a {
   width: 15vw;
   text-decoration: none;
   color: #ffffff;
   padding-left: 2vw;
+  z-index: 1000;
 }
 .menu a:hover {
   color: #C06F33;
+}
+.menu .voice:hover {
+  text-decoration: underline;
 }
 
 @font-face {
