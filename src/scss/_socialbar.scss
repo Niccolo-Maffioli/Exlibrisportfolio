@@ -1,0 +1,11 @@
+.footer {  
+    .socialbar {
+        position: absolute;
+        display: flex;
+        span {
+            &:hover {
+                color: #C06F33;
+            }
+        }
+    }
+}
