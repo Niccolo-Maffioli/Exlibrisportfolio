@@ -140,6 +140,7 @@ main .homecontainer h1 {
   font-weight: normal;
   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
   color: #C06F33;
+  letter-spacing: 5px;
 }
 main .homecontainer .job {
   text-align: center;
@@ -164,11 +165,22 @@ main .homecontainer .presentation {
   width: 100vw;
 }
 
-.footer .socialbar {
+.footer {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.footer .socialbar span {
+  margin: 0 2rem 2rem 0;
 }
 .footer .socialbar span:hover {
   color: #C06F33;
