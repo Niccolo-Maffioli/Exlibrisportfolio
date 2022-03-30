@@ -29,6 +29,21 @@
   color: #C06F33;
   text-decoration: underline;
 }
+.menu .container-cyber2 {
+  height: 100vh;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.menu img {
+  margin-left: 2vw;
+  width: 20vw;
+  height: 60vh;
+}
 .menu a {
   width: 15vw;
   text-decoration: none;
@@ -168,6 +183,25 @@ main .homecontainer .presentation {
       -ms-flex-align: center;
           align-items: center;
   width: 100vw;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.main img {
+  width: 75vw;
+  height: 85vh;
+  margin: 0 2rem 2rem 0;
 }
 
 .footer {
