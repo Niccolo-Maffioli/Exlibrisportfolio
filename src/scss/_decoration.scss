@@ -4,9 +4,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    img {
+    background-image: url(../../img/decoration-1.png);
+    position: center;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 800px;
+    /* img {
         width: 75vw;
         height: 85vh;
         margin: 0 2rem 2rem 0;
-    }
+    } */
 }
