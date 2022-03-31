@@ -2,7 +2,7 @@
 .menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   position: absolute;
 }
@@ -35,10 +35,10 @@
   display: flex;
   align-items: flex-end;
 }
-.menu img {
-  margin-left: 2vw;
+.menu .container-cyber2 img {
+  padding: 0 2vw;
   width: 20vw;
-  height: 60vh;
+  height: 55vh;
 }
 .menu a {
   width: 15vw;
