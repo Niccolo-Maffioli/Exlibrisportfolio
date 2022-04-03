@@ -46,3 +46,38 @@
         width: 25vw;
     }
 }
+
+.worksbg {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    background-image: url(../../img/decoration-3.png);
+    background-size: 70vw 80vh;
+    position: right;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .cardcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 60vw;
+        overflow: scroll;
+        position: absolute;
+        z-index: 10000;
+        .card {
+            display: flex;
+            flex-direction: column;
+            width: 20vw;
+            margin: 0 3vw 15vh 0;
+            img {
+                width: 15vw;
+                height: auto;
+            }
+        }
+    }
+}

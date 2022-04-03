@@ -266,6 +266,60 @@ main .homecontainer .presentation {
   width: 25vw;
 }
 
+.worksbg {
+  height: 90vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-image: url(../../img/decoration-3.png);
+  background-size: 70vw 80vh;
+  position: right;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.worksbg ::-webkit-scrollbar {
+  display: none;
+}
+.worksbg .cardcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 60vw;
+  overflow: scroll;
+  position: absolute;
+  z-index: 10000;
+}
+.worksbg .cardcontainer .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20vw;
+  margin: 0 3vw 15vh 0;
+}
+.worksbg .cardcontainer .card img {
+  width: 15vw;
+  height: auto;
+}
+
 .footer {
   position: absolute;
   display: -webkit-box;
