@@ -14,6 +14,9 @@
     <!-- style.css -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- alpinejs -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
     <!-- kursor -->
     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 
@@ -26,9 +29,39 @@
     <!-- ----------------------------------------------------------------------- -->
     <!--                                  main                                   -->
     <!-- ----------------------------------------------------------------------- -->
-    <main>
-        <div class="homecontainer">
-            <!-- menu-desktop -->
+        <main>
+          <span class="bodyholo">
+            <div x-data="hologram">
+      
+              <div id="holoLoader" :class="displayMode ? 'active' : 'notActive'">
+                <div class="holoLayer" id="core">
+                  <canvas id="coreCanvas" />
+                </div>
+                <div class="holoLayer" id="firstCircle">
+                  <canvas width="450" height="450" id="secondCanvas" />
+                </div>
+                <div class="holoLayer" id="secondCircle">
+                  <div class="slider a">
+                    <div class="sliderPoint a">
+                      <div v-for="item in sparks" class="spark" />
+                    </div>
+                  </div>
+                </div>
+                <div class="holoLayer" id="fourthCircle"></div>
+                <div class="holoLayer" id="fifthCircle">
+                  <canvas id="firstCanvas" />
+                </div>
+                <div class="holoLayer" id="sixthCircle"></div>
+              </div>
+              <canvas
+                width="470"
+                height="200"
+                id="shootingParticles"
+                :class="displayMode"
+              />
+            </div>
+          </span>
+          <span class="homecontainer">
             <span class="menu">
                 <span class="menu2">
                     <a class="logo" href="index.html">N<br>M</a>
@@ -50,14 +83,13 @@
                     <span class="fab fa-codepen"><a href="#"></a></span>
                 </span>
             </span>
-        </div>
-
-    </main>
+        </span>
+        </main>
     
 </body>
 
     <!-- script -->
     <script src="https://unpkg.com/kursor"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script>  
 
 </html>

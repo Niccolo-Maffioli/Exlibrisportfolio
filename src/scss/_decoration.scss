@@ -10,6 +10,9 @@
     position: center;
     background-repeat: no-repeat;
     background-position: bottom right;
+    ::-webkit-scrollbar {
+        display: none;
+    }
     .textab {
         display: flex;
         flex-direction: row;
@@ -80,4 +83,44 @@
             }
         }
     }
+}
+
+.contactbg {
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    background-image: url(../../img/contactdec.png);
+    background-size: 50vw 60vh;
+    position: center;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    form {
+        height: 50vh;
+        width: 40vw;
+        position: absolute;
+        z-index: 10000;
+        margin: 0 6vw 3vh 0;
+        input[type=text] {
+            height: 50vh;
+            width: 40vw;
+            position: absolute;
+            z-index: 10000;
+            background-color: #252D35;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.title {
+    margin-left: 42vw;
+    padding-top: 17vh;
+    position: absolute;
+}
+.title1 {
+    margin-right: 53vw;
+    margin-bottom: 70vh;
+    position: absolute;
 }
