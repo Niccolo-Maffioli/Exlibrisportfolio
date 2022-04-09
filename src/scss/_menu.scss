@@ -1,12 +1,15 @@
 /* menu-desktop */
+.menu1 {
+    position: relative !important;
+}
 .menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 100vh;
-    width:100%;
+    width:100vw;
     position: absolute;
-    .menu2 {
+        .menu2 {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -15,10 +18,10 @@
         position: absolute;
     }
     .logo {
-        font-family: 'Exwayer-X3eqa', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'origin tech demo', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 80px;
         text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-        color: #C06F33;
+        color: #C06F33 !important;
         &:hover {
             color: #FFFFFF;
             text-shadow: 1px 0 0 #C06F33, -1px 0 0 #C06F33, 0 1px 0 #C06F33, 0 -1px 0 #C06F33, 1px 1px #C06F33, -1px -1px 0 #C06F33, 1px -1px 0 #C06F33, -1px 1px 0 #C06F33;
@@ -41,7 +44,7 @@
             height: 55vh;
         }
     }
-    a {
+    .voice, .logo {
         width: 15vw;
         text-decoration: none;
         color: #ffffff;

@@ -1,0 +1,59 @@
+@media screen and (max-width: 992px) {
+    /* mainhome */
+    main {
+        height: 100vh;
+        .homecontainer {
+            h1 {
+                font-size: 40px;
+                font-weight: normal;
+                text-align: center;
+                width: 80vw;
+            }
+            .job {
+                text-align: center;
+                font-size: 20px;
+                font-weight: normal;
+                text-align: center;
+            }
+            .presentation {
+                width: 100vw;
+            }
+        }
+    }
+
+    .menu2 {
+        display: none !important;
+    }
+
+    .presentation {
+        z-index: 1;
+    }
+    
+    .footer {
+        .socialbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            span {
+                margin: 2vh 4vw;
+            }
+        }
+        span {
+            z-index: 3;
+            &:hover {
+                color: #FFFFFF !important;
+            }
+        }
+    }
+
+    .bodycube {
+        z-index: 1 !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mobile-container {
+        display: none;
+    }
+}
