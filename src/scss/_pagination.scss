@@ -1,0 +1,21 @@
+.pagination {
+    grid-column-start: 2;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+  
+.pagination a {
+    color: #FFFFFF;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+.pagination a.actives {
+    background-color: #C06F33;
+    color: #FFFFFF;
+}
+  
+.pagination a:hover:not(.actives) {background-color: #C06F33; color: #FFFFFF;}
