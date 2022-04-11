@@ -48,7 +48,10 @@
     }
 
     .bodycube {
-        z-index: -100 !important;
+        z-index: 0 !important;
+    }
+    .mobile-container {
+        z-index: 10000 !important;
     }
 }
 
