@@ -6,27 +6,19 @@
   }
 }
 
-.bodycube {
-  position: absolute;
-  z-index: -1;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.safarifix {
+  transform: translate3d(0, 0, 400px);
 }
 
-body {
+.safarifixpre {
+  transform: translate3d(0, 0, 200px);
+}
+
+.bodycube {
+  position: absolute;
+  z-index: -12;
   display: flex;
   justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  perspective: 1000px;
-  background: #252D35;
-  
-  &:hover {
-    > label, > input {
-      opacity: 1;
-    }
-  }
 }
 
 label, #shadows {

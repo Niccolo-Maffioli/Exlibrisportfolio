@@ -1,17 +1,7 @@
 .bodycubedec {
-  position: absolute;
-  z-index: -1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  width: 90vw;
-  height: 90vh;
+  margin-bottom: 15vh;
+  margin-right: 5vw;
+  z-index: 2 !important;
 }
 
 #shadowsdec {

@@ -1,0 +1,95 @@
+@media screen and (max-width: 992px) {
+    /* mainhome */
+    body {
+        display: block;
+        width: 100vh;
+    }
+    main {
+        display: flex;
+        height: 90vh;
+        .aboutme {
+            margin-left: 5vw;
+            .textme {
+                h3 {
+                    font-size: 20px;
+                    margin: 0;
+                }
+                .skills {
+                    img {
+                        width: 150px;
+                        height: auto;
+                    }
+                    h4 {
+                        font-size: 15px;
+                        margin: 1vh 0 0 0;
+                    }
+                }
+                .me {
+                    width: 150px;
+                    height: auto;
+                }
+            }
+            .abme {
+                font-size: 15px;
+                margin: 0;
+                width: 0vw;
+                margin: 2vh 0 0 5vw;
+                width: 45vw;
+                p {
+                    height: 19vh;
+                }
+            }
+        }
+        .presentation {
+            h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+        .container {
+            margin-top: 10vh;
+        }
+    }
+    .panel {
+        .date, .collaboration {
+            display: none !important;
+        }
+        .panels {
+            flex-direction: column;
+            img {
+                margin-bottom: 1vh;
+            }
+        }
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .deskmenu {
+        display: none;
+    }
+    header {
+        .icon {
+            text-align: end;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .burgermenu-container, .burger {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+}
+
+@media(min-width: 1050px){
+    .burgermenu-container{
+        justify-content: center;
+    }
+}
