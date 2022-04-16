@@ -24,14 +24,13 @@
     border: none;
     outline: none;
     transition: 0.4s;
-    margin: 3vw 0 0 0;
+    margin-top: 5vh;
     font-family: 'Orbitron', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-/*     transform: translate3d(0, 0, 300px);
- */}
+}
   
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .actives, .accordion:hover {
@@ -60,7 +59,7 @@
     }
     .collaboration {
         font-size: 15px;
-        margin: 0;
+        margin: 2vh 0 0 0;
         padding: 0;
         display: flex;
         justify-content: center;
@@ -69,7 +68,7 @@
     }
     .date {
         font-size: 15px;
-        margin: 0;
+        margin: 2vh 0 0 0;
         padding: 0;
         width: 18vw;
     }

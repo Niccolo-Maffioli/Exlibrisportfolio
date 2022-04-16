@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
+
     <title>Nicolab</title>
 
-    <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
 
     <!-- style.css -->
     <link rel="stylesheet" href="scss/style.css">
-
+    
     <!-- cubedecoration -->
     <link rel="stylesheet" href="cubedecoration.css">
 
@@ -21,11 +21,10 @@
     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 
     <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/a8f17e5631.js"></script>
+    <script src="https://kit.fontawesome.com/a8f17e5631.js"></script>    
 
 </head>
 <body>
-    
   <!-- ----------------------------------------------------------------------- -->
   <!--                                 header                                  -->
   <!-- ----------------------------------------------------------------------- -->
@@ -33,13 +32,14 @@
     <!-- desktopmenu -->
     <nav class="deskmenu">
       <ul>
-        <li><a href="index.html" class="logo"><span>N</span><br><span>M</span></a></li>
+        <li><a href="index" class="logo"><span>N</span><br><span>M</span></a></li>
         <li><a href="about.html">About me</a></li>
-        <li><a class="active" href="works.html">Works</a></li>
+        <li><a href="works.html">Works</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     
+    <!-- hamburgermenu -->
     <!-- hamburgermenu -->
     <div class="burger">
       <span></span>
@@ -60,34 +60,21 @@
   <!--                                  main                                   -->
   <!-- ----------------------------------------------------------------------- -->
   <main>
-    <div id="accordions">
-      <button class="accordion">La Vida Despues</button>
-      <div class="panel">
-          <div class="panels">
-              <img src="img/human-upgrade.png" alt="work">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, temporibus in et maiores delectus obcaecati saepe alias...</p>
-          </div>
-          <a href="#">show details</a>
+    <div class="aboutme">
+      <div class="textme">
+        <div class="myimg">
+          <h2>Human Upgrade</h2>
+          <img class="me" src="img/human-upgrade.png" alt="me">
+        </div>
+        <div class="skills">
+          <p class="date">11/04/2022</a></p>
+          <p class="collaboration">LINK:<br><a href=" https://www.moholepeople.it/humanupgrade/">Human Upgrade - Mohole People</a></p>
+        </div>
       </div>
-
-      <button class="accordion">Human Upgrade</button>
-      <div class="panel">
-          <div class="panels">
-              <img src="img/human-upgrade.png" alt="work">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro deserunt neque velit assumenda ullam quae magnam...</p>
-          </div>
-          <p class="date">11/04/2022</p>
-          <p class="collaboration">with: Isabella Bagnulo, Alessia Pelloni, Francesco Trovato</p>
-          <a href="humanupgrade.html">show details</a>
-      </div>
-
-      <button class="accordion">Event One</button>
-      <div class="panel">
-          <div class="panels">
-              <img src="img/human-upgrade.png" alt="work">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero eaque quibusdam deserunt nihil reprehenderit...</p>
-          </div>
-          <a href="#">show details</a>
+      <div class="abme">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id ante diam. Fusce vel aliquam turpis, vitae pretium neque. Ut vehicula sapien in sapien eleifend venenatis. Sed semper gravida mi, quis condimentum urna pretium vitae. Donec id eleifend enim, et molestie eros. Phasellus ac tortor a dolor varius luctus et sed purus. Etiam commodo integer.
+        </p>
       </div>
     </div>
   </main>
@@ -462,11 +449,11 @@
         </div>
       </div>
     </div>
-  </footer>
-
-  <!-- script -->
-  <script src="https://unpkg.com/kursor"></script>
-  <script src="js/main.js"></script>
+  </footer>  
+        
+    <!-- script -->
+    <script src="https://unpkg.com/kursor"></script>
+    <script src="js/main.js"></script>
     
 </body>
 </html>

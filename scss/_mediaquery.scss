@@ -27,13 +27,14 @@
                 .me {
                     width: 150px;
                     height: auto;
+                    margin: 3vh 0;
                 }
             }
             .abme {
                 font-size: 15px;
                 margin: 0;
                 width: 0vw;
-                margin: 2vh 0 0 5vw;
+                margin: 0 0 0 5vw;
                 width: 45vw;
                 p {
                     height: 19vh;
@@ -51,6 +52,12 @@
         }
         .container {
             margin-top: 10vh;
+        }
+    }
+    #accordions {
+        .accordion {
+            padding: 10px;
+            margin-top: 3vh;
         }
     }
     .panel {

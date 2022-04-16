@@ -95,6 +95,7 @@ main {
 	.aboutme {
 		display: grid;
 		grid-template-columns: 2fr 5fr;
+		margin-left: 5vw;
 		.abme {
 			display: flex;
 			justify-content: flex-start;
@@ -113,7 +114,18 @@ main {
 			h4 {
 				margin: 2vh 0 2vh 0;
 			}
+			h2 {
+				margin: 2vh 0 2vh 0;
+			}
 			.skills {
+				margin-top: 2vh;
+				.collaboration {
+					margin-top: 2vh;
+					a {
+						text-decoration: underline;
+						color: #FFFFFF;
+					}
+				}
 				img {
 					width: 250px;
 					height: auto;
