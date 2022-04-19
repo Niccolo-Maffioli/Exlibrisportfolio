@@ -355,7 +355,7 @@ header ul .logo:hover {
   }
   main .aboutme {
     margin-left: 5vw;
-    margin-top: 5vh;
+    margin-top: 10vh;
   }
   main .aboutme .textme h3 {
     font-size: 20px;
@@ -1038,408 +1038,408 @@ label {
 }
 
 .cube[data-cube="111"] > .cube-wrap, .cube[data-cube="111"] > .cube-wrap:before, .cube[data-cube="111"] > .cube-wrap:after, .cube[data-cube="111"] > .cube-wrap > [class^=cube-], .cube[data-cube="111"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="111"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 178ms;
-          animation-delay: 178ms;
+  -webkit-animation-delay: 82ms;
+          animation-delay: 82ms;
 }
 .cube[data-cube="111"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 178ms;
-          animation-delay: 178ms;
+  -webkit-animation-delay: 82ms;
+          animation-delay: 82ms;
 }
 
 [class^=shadow-][data-cube="111"]:before,
 .large-shadow[data-cube="111"] {
-  -webkit-animation-delay: 178ms;
-          animation-delay: 178ms;
+  -webkit-animation-delay: 82ms;
+          animation-delay: 82ms;
 }
 
 .cube[data-cube="112"] > .cube-wrap, .cube[data-cube="112"] > .cube-wrap:before, .cube[data-cube="112"] > .cube-wrap:after, .cube[data-cube="112"] > .cube-wrap > [class^=cube-], .cube[data-cube="112"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="112"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 8ms;
-          animation-delay: 8ms;
+  -webkit-animation-delay: 186ms;
+          animation-delay: 186ms;
 }
 .cube[data-cube="112"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 8ms;
-          animation-delay: 8ms;
+  -webkit-animation-delay: 186ms;
+          animation-delay: 186ms;
 }
 
 [class^=shadow-][data-cube="112"]:before,
 .large-shadow[data-cube="112"] {
-  -webkit-animation-delay: 8ms;
-          animation-delay: 8ms;
+  -webkit-animation-delay: 186ms;
+          animation-delay: 186ms;
 }
 
 .cube[data-cube="113"] > .cube-wrap, .cube[data-cube="113"] > .cube-wrap:before, .cube[data-cube="113"] > .cube-wrap:after, .cube[data-cube="113"] > .cube-wrap > [class^=cube-], .cube[data-cube="113"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="113"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 172ms;
-          animation-delay: 172ms;
+  -webkit-animation-delay: 7ms;
+          animation-delay: 7ms;
 }
 .cube[data-cube="113"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 172ms;
-          animation-delay: 172ms;
+  -webkit-animation-delay: 7ms;
+          animation-delay: 7ms;
 }
 
 [class^=shadow-][data-cube="113"]:before,
 .large-shadow[data-cube="113"] {
-  -webkit-animation-delay: 172ms;
-          animation-delay: 172ms;
+  -webkit-animation-delay: 7ms;
+          animation-delay: 7ms;
 }
 
 .cube[data-cube="121"] > .cube-wrap, .cube[data-cube="121"] > .cube-wrap:before, .cube[data-cube="121"] > .cube-wrap:after, .cube[data-cube="121"] > .cube-wrap > [class^=cube-], .cube[data-cube="121"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="121"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 266ms;
-          animation-delay: 266ms;
+  -webkit-animation-delay: 10ms;
+          animation-delay: 10ms;
 }
 .cube[data-cube="121"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 266ms;
-          animation-delay: 266ms;
+  -webkit-animation-delay: 10ms;
+          animation-delay: 10ms;
 }
 
 [class^=shadow-][data-cube="121"]:before,
 .large-shadow[data-cube="121"] {
-  -webkit-animation-delay: 266ms;
-          animation-delay: 266ms;
+  -webkit-animation-delay: 10ms;
+          animation-delay: 10ms;
 }
 
 .cube[data-cube="122"] > .cube-wrap, .cube[data-cube="122"] > .cube-wrap:before, .cube[data-cube="122"] > .cube-wrap:after, .cube[data-cube="122"] > .cube-wrap > [class^=cube-], .cube[data-cube="122"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="122"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 284ms;
-          animation-delay: 284ms;
+  -webkit-animation-delay: 263ms;
+          animation-delay: 263ms;
 }
 .cube[data-cube="122"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 284ms;
-          animation-delay: 284ms;
+  -webkit-animation-delay: 263ms;
+          animation-delay: 263ms;
 }
 
 [class^=shadow-][data-cube="122"]:before,
 .large-shadow[data-cube="122"] {
-  -webkit-animation-delay: 284ms;
-          animation-delay: 284ms;
+  -webkit-animation-delay: 263ms;
+          animation-delay: 263ms;
 }
 
 .cube[data-cube="123"] > .cube-wrap, .cube[data-cube="123"] > .cube-wrap:before, .cube[data-cube="123"] > .cube-wrap:after, .cube[data-cube="123"] > .cube-wrap > [class^=cube-], .cube[data-cube="123"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="123"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 4ms;
-          animation-delay: 4ms;
+  -webkit-animation-delay: 260ms;
+          animation-delay: 260ms;
 }
 .cube[data-cube="123"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 4ms;
-          animation-delay: 4ms;
+  -webkit-animation-delay: 260ms;
+          animation-delay: 260ms;
 }
 
 [class^=shadow-][data-cube="123"]:before,
 .large-shadow[data-cube="123"] {
-  -webkit-animation-delay: 4ms;
-          animation-delay: 4ms;
+  -webkit-animation-delay: 260ms;
+          animation-delay: 260ms;
 }
 
 .cube[data-cube="131"] > .cube-wrap, .cube[data-cube="131"] > .cube-wrap:before, .cube[data-cube="131"] > .cube-wrap:after, .cube[data-cube="131"] > .cube-wrap > [class^=cube-], .cube[data-cube="131"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="131"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 95ms;
-          animation-delay: 95ms;
+  -webkit-animation-delay: 19ms;
+          animation-delay: 19ms;
 }
 .cube[data-cube="131"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 95ms;
-          animation-delay: 95ms;
+  -webkit-animation-delay: 19ms;
+          animation-delay: 19ms;
 }
 
 [class^=shadow-][data-cube="131"]:before,
 .large-shadow[data-cube="131"] {
-  -webkit-animation-delay: 95ms;
-          animation-delay: 95ms;
+  -webkit-animation-delay: 19ms;
+          animation-delay: 19ms;
 }
 
 .cube[data-cube="132"] > .cube-wrap, .cube[data-cube="132"] > .cube-wrap:before, .cube[data-cube="132"] > .cube-wrap:after, .cube[data-cube="132"] > .cube-wrap > [class^=cube-], .cube[data-cube="132"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="132"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 113ms;
-          animation-delay: 113ms;
+  -webkit-animation-delay: 134ms;
+          animation-delay: 134ms;
 }
 .cube[data-cube="132"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 113ms;
-          animation-delay: 113ms;
+  -webkit-animation-delay: 134ms;
+          animation-delay: 134ms;
 }
 
 [class^=shadow-][data-cube="132"]:before,
 .large-shadow[data-cube="132"] {
-  -webkit-animation-delay: 113ms;
-          animation-delay: 113ms;
+  -webkit-animation-delay: 134ms;
+          animation-delay: 134ms;
 }
 
 .cube[data-cube="133"] > .cube-wrap, .cube[data-cube="133"] > .cube-wrap:before, .cube[data-cube="133"] > .cube-wrap:after, .cube[data-cube="133"] > .cube-wrap > [class^=cube-], .cube[data-cube="133"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="133"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 65ms;
-          animation-delay: 65ms;
+  -webkit-animation-delay: 157ms;
+          animation-delay: 157ms;
 }
 .cube[data-cube="133"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 65ms;
-          animation-delay: 65ms;
+  -webkit-animation-delay: 157ms;
+          animation-delay: 157ms;
 }
 
 [class^=shadow-][data-cube="133"]:before,
 .large-shadow[data-cube="133"] {
-  -webkit-animation-delay: 65ms;
-          animation-delay: 65ms;
+  -webkit-animation-delay: 157ms;
+          animation-delay: 157ms;
 }
 
 .cube[data-cube="211"] > .cube-wrap, .cube[data-cube="211"] > .cube-wrap:before, .cube[data-cube="211"] > .cube-wrap:after, .cube[data-cube="211"] > .cube-wrap > [class^=cube-], .cube[data-cube="211"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="211"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 204ms;
-          animation-delay: 204ms;
+  -webkit-animation-delay: 97ms;
+          animation-delay: 97ms;
 }
 .cube[data-cube="211"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 204ms;
-          animation-delay: 204ms;
+  -webkit-animation-delay: 97ms;
+          animation-delay: 97ms;
 }
 
 [class^=shadow-][data-cube="211"]:before,
 .large-shadow[data-cube="211"] {
-  -webkit-animation-delay: 204ms;
-          animation-delay: 204ms;
+  -webkit-animation-delay: 97ms;
+          animation-delay: 97ms;
 }
 
 .cube[data-cube="212"] > .cube-wrap, .cube[data-cube="212"] > .cube-wrap:before, .cube[data-cube="212"] > .cube-wrap:after, .cube[data-cube="212"] > .cube-wrap > [class^=cube-], .cube[data-cube="212"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="212"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 64ms;
-          animation-delay: 64ms;
+  -webkit-animation-delay: 76ms;
+          animation-delay: 76ms;
 }
 .cube[data-cube="212"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 64ms;
-          animation-delay: 64ms;
+  -webkit-animation-delay: 76ms;
+          animation-delay: 76ms;
 }
 
 [class^=shadow-][data-cube="212"]:before,
 .large-shadow[data-cube="212"] {
-  -webkit-animation-delay: 64ms;
-          animation-delay: 64ms;
+  -webkit-animation-delay: 76ms;
+          animation-delay: 76ms;
 }
 
 .cube[data-cube="213"] > .cube-wrap, .cube[data-cube="213"] > .cube-wrap:before, .cube[data-cube="213"] > .cube-wrap:after, .cube[data-cube="213"] > .cube-wrap > [class^=cube-], .cube[data-cube="213"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="213"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 94ms;
-          animation-delay: 94ms;
+  -webkit-animation-delay: 285ms;
+          animation-delay: 285ms;
 }
 .cube[data-cube="213"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 94ms;
-          animation-delay: 94ms;
+  -webkit-animation-delay: 285ms;
+          animation-delay: 285ms;
 }
 
 [class^=shadow-][data-cube="213"]:before,
 .large-shadow[data-cube="213"] {
-  -webkit-animation-delay: 94ms;
-          animation-delay: 94ms;
+  -webkit-animation-delay: 285ms;
+          animation-delay: 285ms;
 }
 
 .cube[data-cube="221"] > .cube-wrap, .cube[data-cube="221"] > .cube-wrap:before, .cube[data-cube="221"] > .cube-wrap:after, .cube[data-cube="221"] > .cube-wrap > [class^=cube-], .cube[data-cube="221"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="221"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 240ms;
-          animation-delay: 240ms;
+  -webkit-animation-delay: 184ms;
+          animation-delay: 184ms;
 }
 .cube[data-cube="221"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 240ms;
-          animation-delay: 240ms;
+  -webkit-animation-delay: 184ms;
+          animation-delay: 184ms;
 }
 
 [class^=shadow-][data-cube="221"]:before,
 .large-shadow[data-cube="221"] {
-  -webkit-animation-delay: 240ms;
-          animation-delay: 240ms;
+  -webkit-animation-delay: 184ms;
+          animation-delay: 184ms;
 }
 
 .cube[data-cube="222"] > .cube-wrap, .cube[data-cube="222"] > .cube-wrap:before, .cube[data-cube="222"] > .cube-wrap:after, .cube[data-cube="222"] > .cube-wrap > [class^=cube-], .cube[data-cube="222"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="222"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  -webkit-animation-delay: 3ms;
+          animation-delay: 3ms;
 }
 .cube[data-cube="222"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  -webkit-animation-delay: 3ms;
+          animation-delay: 3ms;
 }
 
 [class^=shadow-][data-cube="222"]:before,
 .large-shadow[data-cube="222"] {
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  -webkit-animation-delay: 3ms;
+          animation-delay: 3ms;
 }
 
 .cube[data-cube="223"] > .cube-wrap, .cube[data-cube="223"] > .cube-wrap:before, .cube[data-cube="223"] > .cube-wrap:after, .cube[data-cube="223"] > .cube-wrap > [class^=cube-], .cube[data-cube="223"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="223"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 237ms;
-          animation-delay: 237ms;
+  -webkit-animation-delay: 182ms;
+          animation-delay: 182ms;
 }
 .cube[data-cube="223"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 237ms;
-          animation-delay: 237ms;
+  -webkit-animation-delay: 182ms;
+          animation-delay: 182ms;
 }
 
 [class^=shadow-][data-cube="223"]:before,
 .large-shadow[data-cube="223"] {
-  -webkit-animation-delay: 237ms;
-          animation-delay: 237ms;
+  -webkit-animation-delay: 182ms;
+          animation-delay: 182ms;
 }
 
 .cube[data-cube="231"] > .cube-wrap, .cube[data-cube="231"] > .cube-wrap:before, .cube[data-cube="231"] > .cube-wrap:after, .cube[data-cube="231"] > .cube-wrap > [class^=cube-], .cube[data-cube="231"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="231"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 111ms;
-          animation-delay: 111ms;
+  -webkit-animation-delay: 194ms;
+          animation-delay: 194ms;
 }
 .cube[data-cube="231"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 111ms;
-          animation-delay: 111ms;
+  -webkit-animation-delay: 194ms;
+          animation-delay: 194ms;
 }
 
 [class^=shadow-][data-cube="231"]:before,
 .large-shadow[data-cube="231"] {
-  -webkit-animation-delay: 111ms;
-          animation-delay: 111ms;
+  -webkit-animation-delay: 194ms;
+          animation-delay: 194ms;
 }
 
 .cube[data-cube="232"] > .cube-wrap, .cube[data-cube="232"] > .cube-wrap:before, .cube[data-cube="232"] > .cube-wrap:after, .cube[data-cube="232"] > .cube-wrap > [class^=cube-], .cube[data-cube="232"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="232"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 229ms;
-          animation-delay: 229ms;
+  -webkit-animation-delay: 70ms;
+          animation-delay: 70ms;
 }
 .cube[data-cube="232"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 229ms;
-          animation-delay: 229ms;
+  -webkit-animation-delay: 70ms;
+          animation-delay: 70ms;
 }
 
 [class^=shadow-][data-cube="232"]:before,
 .large-shadow[data-cube="232"] {
-  -webkit-animation-delay: 229ms;
-          animation-delay: 229ms;
+  -webkit-animation-delay: 70ms;
+          animation-delay: 70ms;
 }
 
 .cube[data-cube="233"] > .cube-wrap, .cube[data-cube="233"] > .cube-wrap:before, .cube[data-cube="233"] > .cube-wrap:after, .cube[data-cube="233"] > .cube-wrap > [class^=cube-], .cube[data-cube="233"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="233"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 284ms;
-          animation-delay: 284ms;
+  -webkit-animation-delay: 149ms;
+          animation-delay: 149ms;
 }
 .cube[data-cube="233"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 284ms;
-          animation-delay: 284ms;
+  -webkit-animation-delay: 149ms;
+          animation-delay: 149ms;
 }
 
 [class^=shadow-][data-cube="233"]:before,
 .large-shadow[data-cube="233"] {
-  -webkit-animation-delay: 284ms;
-          animation-delay: 284ms;
+  -webkit-animation-delay: 149ms;
+          animation-delay: 149ms;
 }
 
 .cube[data-cube="311"] > .cube-wrap, .cube[data-cube="311"] > .cube-wrap:before, .cube[data-cube="311"] > .cube-wrap:after, .cube[data-cube="311"] > .cube-wrap > [class^=cube-], .cube[data-cube="311"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="311"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 106ms;
-          animation-delay: 106ms;
+  -webkit-animation-delay: 190ms;
+          animation-delay: 190ms;
 }
 .cube[data-cube="311"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 106ms;
-          animation-delay: 106ms;
+  -webkit-animation-delay: 190ms;
+          animation-delay: 190ms;
 }
 
 [class^=shadow-][data-cube="311"]:before,
 .large-shadow[data-cube="311"] {
-  -webkit-animation-delay: 106ms;
-          animation-delay: 106ms;
+  -webkit-animation-delay: 190ms;
+          animation-delay: 190ms;
 }
 
 .cube[data-cube="312"] > .cube-wrap, .cube[data-cube="312"] > .cube-wrap:before, .cube[data-cube="312"] > .cube-wrap:after, .cube[data-cube="312"] > .cube-wrap > [class^=cube-], .cube[data-cube="312"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="312"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 47ms;
-          animation-delay: 47ms;
+  -webkit-animation-delay: 29ms;
+          animation-delay: 29ms;
 }
 .cube[data-cube="312"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 47ms;
-          animation-delay: 47ms;
+  -webkit-animation-delay: 29ms;
+          animation-delay: 29ms;
 }
 
 [class^=shadow-][data-cube="312"]:before,
 .large-shadow[data-cube="312"] {
-  -webkit-animation-delay: 47ms;
-          animation-delay: 47ms;
+  -webkit-animation-delay: 29ms;
+          animation-delay: 29ms;
 }
 
 .cube[data-cube="313"] > .cube-wrap, .cube[data-cube="313"] > .cube-wrap:before, .cube[data-cube="313"] > .cube-wrap:after, .cube[data-cube="313"] > .cube-wrap > [class^=cube-], .cube[data-cube="313"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="313"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 37ms;
-          animation-delay: 37ms;
+  -webkit-animation-delay: 15ms;
+          animation-delay: 15ms;
 }
 .cube[data-cube="313"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 37ms;
-          animation-delay: 37ms;
+  -webkit-animation-delay: 15ms;
+          animation-delay: 15ms;
 }
 
 [class^=shadow-][data-cube="313"]:before,
 .large-shadow[data-cube="313"] {
-  -webkit-animation-delay: 37ms;
-          animation-delay: 37ms;
+  -webkit-animation-delay: 15ms;
+          animation-delay: 15ms;
 }
 
 .cube[data-cube="321"] > .cube-wrap, .cube[data-cube="321"] > .cube-wrap:before, .cube[data-cube="321"] > .cube-wrap:after, .cube[data-cube="321"] > .cube-wrap > [class^=cube-], .cube[data-cube="321"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="321"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 88ms;
-          animation-delay: 88ms;
+  -webkit-animation-delay: 123ms;
+          animation-delay: 123ms;
 }
 .cube[data-cube="321"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 88ms;
-          animation-delay: 88ms;
+  -webkit-animation-delay: 123ms;
+          animation-delay: 123ms;
 }
 
 [class^=shadow-][data-cube="321"]:before,
 .large-shadow[data-cube="321"] {
-  -webkit-animation-delay: 88ms;
-          animation-delay: 88ms;
+  -webkit-animation-delay: 123ms;
+          animation-delay: 123ms;
 }
 
 .cube[data-cube="322"] > .cube-wrap, .cube[data-cube="322"] > .cube-wrap:before, .cube[data-cube="322"] > .cube-wrap:after, .cube[data-cube="322"] > .cube-wrap > [class^=cube-], .cube[data-cube="322"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="322"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 251ms;
-          animation-delay: 251ms;
+  -webkit-animation-delay: 47ms;
+          animation-delay: 47ms;
 }
 .cube[data-cube="322"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 251ms;
-          animation-delay: 251ms;
+  -webkit-animation-delay: 47ms;
+          animation-delay: 47ms;
 }
 
 [class^=shadow-][data-cube="322"]:before,
 .large-shadow[data-cube="322"] {
-  -webkit-animation-delay: 251ms;
-          animation-delay: 251ms;
+  -webkit-animation-delay: 47ms;
+          animation-delay: 47ms;
 }
 
 .cube[data-cube="323"] > .cube-wrap, .cube[data-cube="323"] > .cube-wrap:before, .cube[data-cube="323"] > .cube-wrap:after, .cube[data-cube="323"] > .cube-wrap > [class^=cube-], .cube[data-cube="323"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="323"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 67ms;
-          animation-delay: 67ms;
+  -webkit-animation-delay: 60ms;
+          animation-delay: 60ms;
 }
 .cube[data-cube="323"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 67ms;
-          animation-delay: 67ms;
+  -webkit-animation-delay: 60ms;
+          animation-delay: 60ms;
 }
 
 [class^=shadow-][data-cube="323"]:before,
 .large-shadow[data-cube="323"] {
-  -webkit-animation-delay: 67ms;
-          animation-delay: 67ms;
+  -webkit-animation-delay: 60ms;
+          animation-delay: 60ms;
 }
 
 .cube[data-cube="331"] > .cube-wrap, .cube[data-cube="331"] > .cube-wrap:before, .cube[data-cube="331"] > .cube-wrap:after, .cube[data-cube="331"] > .cube-wrap > [class^=cube-], .cube[data-cube="331"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="331"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 38ms;
-          animation-delay: 38ms;
+  -webkit-animation-delay: 298ms;
+          animation-delay: 298ms;
 }
 .cube[data-cube="331"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 38ms;
-          animation-delay: 38ms;
+  -webkit-animation-delay: 298ms;
+          animation-delay: 298ms;
 }
 
 [class^=shadow-][data-cube="331"]:before,
 .large-shadow[data-cube="331"] {
-  -webkit-animation-delay: 38ms;
-          animation-delay: 38ms;
+  -webkit-animation-delay: 298ms;
+          animation-delay: 298ms;
 }
 
 .cube[data-cube="332"] > .cube-wrap, .cube[data-cube="332"] > .cube-wrap:before, .cube[data-cube="332"] > .cube-wrap:after, .cube[data-cube="332"] > .cube-wrap > [class^=cube-], .cube[data-cube="332"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="332"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 116ms;
-          animation-delay: 116ms;
+  -webkit-animation-delay: 234ms;
+          animation-delay: 234ms;
 }
 .cube[data-cube="332"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 116ms;
-          animation-delay: 116ms;
+  -webkit-animation-delay: 234ms;
+          animation-delay: 234ms;
 }
 
 [class^=shadow-][data-cube="332"]:before,
 .large-shadow[data-cube="332"] {
-  -webkit-animation-delay: 116ms;
-          animation-delay: 116ms;
+  -webkit-animation-delay: 234ms;
+          animation-delay: 234ms;
 }
 
 .cube[data-cube="333"] > .cube-wrap, .cube[data-cube="333"] > .cube-wrap:before, .cube[data-cube="333"] > .cube-wrap:after, .cube[data-cube="333"] > .cube-wrap > [class^=cube-], .cube[data-cube="333"] > .cube-wrap > [class^=cube-]:before, .cube[data-cube="333"] > .cube-wrap > [class^=cube-]:after {
-  -webkit-animation-delay: 249ms;
-          animation-delay: 249ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .cube[data-cube="333"] > .cube-wrap [class^=shadow-] {
-  -webkit-animation-delay: 249ms;
-          animation-delay: 249ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 
 [class^=shadow-][data-cube="333"]:before,
 .large-shadow[data-cube="333"] {
-  -webkit-animation-delay: 249ms;
-          animation-delay: 249ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 
 /* #accordions {
