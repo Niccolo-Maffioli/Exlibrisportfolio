@@ -62,6 +62,12 @@
         }
     }
     .panel {
+        p {
+            font-size: 10px;
+        }
+        a {
+            font-size: 10px;
+        }
         .date, .collaboration {
             display: none !important;
         }
