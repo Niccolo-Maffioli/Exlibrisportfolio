@@ -23,6 +23,8 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a8f17e5631.js"></script>
 
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 </head>
 <body>
     
@@ -60,18 +62,20 @@
   <!--                                  main                                   -->
   <!-- ----------------------------------------------------------------------- -->
   <main>
-    <div id="accordions">
-      <button class="accordion">La Vida Despues</button>
-      <div class="panel">
+    <div id="accordions" x-data="{selected: null}"  scroll="no">
+      <button @click="selected == 1 ? selected = null : selected = 1" class="accordion" :class="selected == 1 ? 'actives' : ''">La Vida Despues</button>
+      <div class="panel" :style="selected == 1 ? {display: 'block'} : {display: 'none'}">
           <div class="panels">
               <img src="img/human-upgrade.png" alt="work">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, temporibus in et maiores delectus obcaecati saepe alias...</p>
           </div>
+          <p class="date">11/04/2022</p>
+          <p class="collaboration">with: Dayanna Michelle Malla Yanez, Pietro Talamo</p>
           <a href="#">show details</a>
       </div>
 
-      <button class="accordion">Human Upgrade</button>
-      <div class="panel">
+      <button @click="selected == 2 ? selected = null : selected = 2" class="accordion" :class="selected == 2 ? 'actives' : ''">Human Upgrade</button>
+      <div class="panel" :style="selected == 2 ? {display: 'block'} : {display: 'none'}">
           <div class="panels">
               <img src="img/human-upgrade.png" alt="work">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro deserunt neque velit assumenda ullam quae magnam...</p>
@@ -81,12 +85,14 @@
           <a href="humanupgrade.html">show details</a>
       </div>
 
-      <button class="accordion">Event One</button>
-      <div class="panel">
+      <button @click="selected == 3 ? selected = null : selected = 3" class="accordion" :class="selected == 3 ? 'actives' : ''">Event One</button>
+      <div class="panel" :style="selected == 3 ? {display: 'block'} : {display: 'none'}">
           <div class="panels">
               <img src="img/human-upgrade.png" alt="work">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero eaque quibusdam deserunt nihil reprehenderit...</p>
           </div>
+          <p class="date">11/04/2022</p>
+          <p class="collaboration">with: Dayanna Michelle Malla Yanez, Pietro Talamo</p>
           <a href="#">show details</a>
       </div>
     </div>

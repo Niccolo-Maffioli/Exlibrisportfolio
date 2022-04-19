@@ -8,6 +8,17 @@
     overflow: scroll;
 } */
 
+#accordions {
+    overflow: scroll;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    padding-bottom: 10px;
+}
+
 /* #accordions {
     z-index: -10 !important;
 } */
@@ -19,7 +30,7 @@
     color: #FFFFFF;
     cursor: pointer;
     padding: 25px;
-    width: 80vw;
+    width: 70vw;
     text-align: left;
     border: none;
     outline: none;
@@ -43,14 +54,14 @@
     background-color: #252D35;
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
     display: none;
-    overflow: hidden;
-    width: 80vw;
+    width: 70vw;
     padding: 20px;
+    height: 40vh;
     p {
         margin-left: 20px;
     }
     a {
-        margin-top: 30px;
+        margin-top: 10px;
         align-self: flex-end;
         color: #FFFFFF;
         font-size: 15px;
