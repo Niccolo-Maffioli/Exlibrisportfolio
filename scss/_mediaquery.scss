@@ -106,7 +106,7 @@
     }
 }
 
-@media(min-width: 1050px){
+@media (min-width: 1050px){
     .burgermenu-container{
         justify-content: center;
     }
@@ -117,6 +117,9 @@
     .bodycube {
         display: none !important;
     }
+}
+
+@media screen and (max-height: 750px) {
     .panel {
         height: 60vh !important;
     }
