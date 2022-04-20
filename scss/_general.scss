@@ -55,7 +55,11 @@
   border: none;
 }
 
-.cubenone {
+.dnone {
+	display: none !important;
+}
+
+.dnonecube {
 	display: none !important;
 }
 
@@ -168,7 +172,7 @@ header {
 	ul {
 		display: flex;
 		justify-content: space-around;
-		align-items: center;
+		align-items: flex-start;
 		flex-direction: column;
 		height: 60vh;
 		margin-left: 3vw;

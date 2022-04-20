@@ -10,6 +10,7 @@ const burger = document.querySelector(".burger");
 const nav = document.querySelector(".burgermenu-container");
 const body = document.querySelector("body");
 const cont = document.querySelector(".container");
+const none = document.querySelector("#none");
 const cube = document.querySelector("#bodycube");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -18,7 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.toggle("show")
     nav.classList.toggle("zindex")
     body.classList.toggle("overflow")
-    cube.classList.toggle("cubenone")
+    none.classList.toggle("dnone")
+    cube.classList.toggle("dnonecube")
     cont.classList.toggle("-zindex")
   })
 })
