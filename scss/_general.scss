@@ -63,6 +63,13 @@
 	display: none !important;
 }
 
+.falsediv {
+	display: none;
+}
+#falsediv {
+	display: none;
+}
+
 body {
 	display: grid;
 	grid-template-columns: 1fr 5fr;
