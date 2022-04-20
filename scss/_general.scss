@@ -55,6 +55,10 @@
   border: none;
 }
 
+.cubenone {
+	display: none !important;
+}
+
 body {
 	display: grid;
 	grid-template-columns: 1fr 5fr;
@@ -159,6 +163,7 @@ footer {
 }
 
 header {
+	overflow-y: hidden;
 	width: 100%;
 	ul {
 		display: flex;

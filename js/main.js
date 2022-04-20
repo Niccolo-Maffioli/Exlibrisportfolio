@@ -10,6 +10,7 @@ const burger = document.querySelector(".burger");
 const nav = document.querySelector(".burgermenu-container");
 const body = document.querySelector("body");
 const cont = document.querySelector(".container");
+const cube = document.querySelector("#bodycube");
 
 document.addEventListener("DOMContentLoaded", () => {
   burger.addEventListener("click", () => {
@@ -17,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.toggle("show")
     nav.classList.toggle("zindex")
     body.classList.toggle("overflow")
+    cube.classList.toggle("cubenone")
     cont.classList.toggle("-zindex")
   })
 })

@@ -63,6 +63,7 @@
         }
     }
     .panel {
+        height: 29vh !important;
         p {
             font-size: 12px;
         }
@@ -108,5 +109,12 @@
 @media(min-width: 1050px){
     .burgermenu-container{
         justify-content: center;
+    }
+}
+
+/** Safari */
+@media not all and (min-resolution: 0.001dpcm) {
+    .bodycube {
+        display: none !important;
     }
 }
