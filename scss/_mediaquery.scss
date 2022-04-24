@@ -96,6 +96,14 @@
             text-align: end;
         }
     }
+    .loader-container {
+        h2 {
+            font-size: 25px;
+        }
+        .loader {
+            width: 350px;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -120,6 +128,9 @@
     }
     .burger {
         transform: translate3d(0, 0, 200px);
+    }
+    .loader-page {
+        transform: translate3d(0, 0, 400px);
     }
 }
 
