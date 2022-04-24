@@ -40,3 +40,50 @@ function myFunction( win ) {
 	console.log(win);
 	document.getElementById("form").submit();
 }
+
+// secret
+var easter = document.getElementById("easter"),
+    egg;
+
+egg = easter.dataset.egg; 
+
+easter_egg = new Easter(
+    egg,
+    function(){
+        document.getElementById("output").innerHTML = "<a href='http://127.0.0.1:5500/jump.html'>click!</a>";
+    },
+    true);
+
+document.addEventListener("keypress", function(e){
+  easter_egg.update(e.keyCode);
+});
+
+function Easter(keyCombination, onComplete , debug)
+{
+
+    var keys = keyCombination.split(' '),  // All the keys before completed.
+        _cur = 0,                          // The current position in array.
+        _deb = debug || false,             // Wether debug mode is on / off.
+        onComplete = onComplete;           // What to do when completed.
+    
+    if ( _deb ) console.log(keys + " | " + _cur + " | " + keys[ _cur ]);
+
+    this.update = function (key)
+    {
+        if( _deb ) console.log( key + "?=" + keys[ _cur ] );
+        if ( key == keys[ _cur ].charCodeAt( 0 ) )
+        {
+            _cur ++;
+            
+            if ( keys[ _cur ] == undefined )
+            {
+                onComplete();
+                _cur = 0;
+            }
+            
+        } else {
+            if( _deb ) console.log("Nope, reset!");
+            _cur = 0;
+        }
+    }
+}
