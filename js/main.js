@@ -108,3 +108,10 @@ window.onload = loader;
     }
   }
 }
+
+// white&dark
+
+/* function myFunction() {
+  var element = document.body;
+  element.classList.toggle("white-mode");
+} */
