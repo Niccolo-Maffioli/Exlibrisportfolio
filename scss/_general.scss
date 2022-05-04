@@ -119,33 +119,20 @@ main {
 			width: 40vw;
 			margin-top: 7vh;
 			margin-left: 4vw;
+			p {
+				font-size: 25px;
+			}
 		}
 		.textme {
-			display: grid;
-			grid-template-rows: repeat(2, 1fr);
 			h3 {
 				margin: 2vh 0 2vh 0;
+				font-size: 25px;
 			}
 			h4 {
 				margin: 2vh 0 2vh 0;
 			}
 			h2 {
 				margin: 2vh 0 2vh 0;
-			}
-			.skills {
-				margin-top: 2vh;
-				.collaboration {
-					margin-top: 2vh;
-					a {
-						text-decoration: underline;
-						color: #FFFFFF;
-					}
-				}
-				img {
-					width: auto;
-					height: 300px;
-					position: absolute;
-				}
 			}
 		}
 	}
