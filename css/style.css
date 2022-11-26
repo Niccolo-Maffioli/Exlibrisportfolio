@@ -857,10 +857,21 @@ h3.my-profession {
 .portfolio .row .portfolio-item .portfolio-details {
     color: var(--text-black-700);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio .row .portfolio-item .portfolio-details i {
+    margin-left: 5px;
 }
 
 .portfolio .row .portfolio-item .portfolio-details:hover {
     color: var(--skin-color);
+}
+
+.portfolio .row .portfolio-item .portfolio-details:hover i {
+    transform: translateX(5px);
+    transition: all 0.3s ease;
 }
 
 /* ANCHOR Portfolio PopUp */
@@ -901,7 +912,7 @@ h3.my-profession {
 
 .portfolio .portfolio-popup .portfolio-popup-inner .portfolio-popup-content h3 {
     padding-bottom: 20px;
-    color: var(--text-black-900);
+    color: var(--skin-color);
 }
 
 .portfolio .portfolio-popup .portfolio-popup-inner .portfolio-popup-content p {
@@ -914,11 +925,11 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-popup .portfolio-popup-inner .portfolio-popup-content ul li span a {
-    color: var(--text-black-700);
+    color: var(--skin-color);
 }
 
 .portfolio .portfolio-popup .portfolio-popup-inner .portfolio-popup-content ul li span a:hover {
-    color: var(--skin-color);
+    color: var(--text-black-700r);
 }
 
 .portfolio .portfolio-popup .portfolio-popup-inner .portfolio-popup-img {
@@ -1039,11 +1050,11 @@ h3.my-profession {
 }
 
 .contact-link {
-    color: var(--text-black-700);
+    color: var(--skin-color);
 }
 
 .contact-link:hover {
-    color: var(--skin-color);
+    color: var(--text-black-700);
 }
 
 /* ANCHOR Media Query  */
