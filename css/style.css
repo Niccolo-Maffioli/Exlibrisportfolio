@@ -97,6 +97,56 @@ body.dark {
     border: 1px solid red;
 }
 
+/* ANCHOR Loader */
+.loader-page {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: var(--bg-black-100);;
+    z-index: 100;
+}
+
+.loader-name {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px; 
+    margin-left: -52px;
+	font-size: 125%;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: var(--skin-color);
+}
+
+.loader-circle {
+	width: 180px;
+	height: 180px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+    border-top: 5px solid var(--skin-color);
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-radius: 50%;
+    margin-top: -90px; 
+    margin-left: -90px;
+    animation: loader 1s infinite linear;
+}
+
+@keyframes loader {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 /* ANCHOR Style */
 body {
     cursor: none !important;
@@ -912,10 +962,6 @@ h3.my-profession {
         left: -270px;
     }
 
-    .cursor {
-        display: none;
-    }
-
     .aside .nav-toggler.open {
         left: 300px;
     }
@@ -968,6 +1014,10 @@ h3.my-profession {
 
 /* 767 */
 @media (max-width: 767px) {
+    .cursor {
+        display: none;
+    }
+
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
