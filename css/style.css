@@ -874,7 +874,8 @@ h3.my-profession {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    visibility: hidden;
+    transition: .3s;
 }
 
 .portfolio .portfolio-popup .portfolio-popup-inner {
@@ -924,6 +925,23 @@ h3.my-profession {
     height: auto;
     padding: 20px;
 }
+
+.portfolio-popup.openpopup {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s all ease;
+    animation: 0.3s openpopup;
+}
+
+@keyframes openpopup {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 
 /* ANCHOR Contact */
 .contact-title {
@@ -1057,6 +1075,10 @@ h3.my-profession {
 
     .service .container .row.services {
         margin-top: 0;
+    }
+
+    .portfolio .portfolio-popup, .portfolio .portfolio-details  {
+        display: none;
     }
 
     .about .about-content .personal-info .info-item p span {

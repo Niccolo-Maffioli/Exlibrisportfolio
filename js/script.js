@@ -101,19 +101,33 @@ function asideSectionTogglerBtn() {
 
 // ANCHOR Loader
 window.onload = loader;
-        function loader() {
-          let loaderPage = document.querySelector('.loader-page');
-          /* let fill = document.querySelector('.loader-fill'); */
-          let amount = 10;
-          let interval = setInterval(loop, 50);
-          function loop() {
-            if (amount >= 100) {
-              clearInterval(interval);
-              /* loaderPage.style.visibility = 'hidden'; */
-              loaderPage.style.opacity = '0';
-            } else {
-              amount++;
-              /* fill.style.width = amount + '%'; */
-          }
+    function loader() {
+        let loaderPage = document.querySelector('.loader-page');
+        /* let fill = document.querySelector('.loader-fill'); */
+        let amount = 10;
+        let interval = setInterval(loop, 50);
+        function loop() {
+        if (amount >= 100) {
+          clearInterval(interval);
+          /* loaderPage.style.visibility = 'hidden'; */
+          loaderPage.style.opacity = '0';
+        } else {
+          amount++;
+          /* fill.style.width = amount + '%'; */
         }
-      }
+    }
+}
+
+// ANCHOR Popup
+
+document.addEventListener("click", (e) => {
+    if(e.target.classList.contains("portfolio-details")) {
+        togglePortfolioPopup();
+    }
+});
+
+function togglePortfolioPopup() {
+    document.querySelector(".portfolio-popup").classList.toggle("openpopup");
+}
+
+document.querySelector(".portfolio-popup-close").addEventListener("click", togglePortfolioPopup);
