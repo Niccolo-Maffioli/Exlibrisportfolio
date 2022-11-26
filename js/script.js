@@ -109,7 +109,7 @@ window.onload = loader;
           function loop() {
             if (amount >= 100) {
               clearInterval(interval);
-              loaderPage.style.visibility = 'hidden';
+              /* loaderPage.style.visibility = 'hidden'; */
               loaderPage.style.opacity = '0';
             } else {
               amount++;
