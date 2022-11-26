@@ -846,6 +846,7 @@ h3.my-profession {
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
@@ -940,6 +941,10 @@ h3.my-profession {
     100% {
         transform: scale(1);
     }
+}
+
+.work {
+    display: none;
 }
 
 

@@ -123,6 +123,7 @@ window.onload = loader;
 document.addEventListener("click", (e) => {
     if(e.target.classList.contains("portfolio-details")) {
         togglePortfolioPopup();
+        portfolioItemDetails(e.target.parentElement);
     }
 });
 
@@ -131,3 +132,8 @@ function togglePortfolioPopup() {
 }
 
 document.querySelector(".portfolio-popup-close").addEventListener("click", togglePortfolioPopup);
+
+function portfolioItemDetails(portfolioItem) {
+    document.querySelector(".pp-thumbnail img").src = portfolioItem.querySelector(".portfolio-img img").src;
+    document.querySelector(".portfolio-popup-body").innerHTML = portfolioItem.querySelector(".work-body").innerHTML;
+}
