@@ -753,8 +753,19 @@ h3.my-profession {
 .red-circle {
     width: 25px;
     height: 25px;
-    color: var(--);
+    color: var(--skin-color);
+    animation: redcircle 2s infinite linear;
 }
+
+@keyframes redcircle {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 
 /* ANCHOR Services */
 .service .container {
