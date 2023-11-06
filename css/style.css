@@ -771,6 +771,9 @@ h3.my-profession {
     50% {
         opacity: 100%;
     }
+    100% {
+        opacity: 0%;
+    }
 }
 
 
