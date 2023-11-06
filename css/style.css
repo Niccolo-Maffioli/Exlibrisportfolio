@@ -761,14 +761,14 @@ h3.my-profession {
     width: 15px;
     height: 15px;
     background-color: var(--skin-color);
-    animation: redcircle 2s infinite linear;
+    animation: redcircle 2s infinite forwards;
 }
 
 @keyframes redcircle {
     0% {
         opacity: 0%;
     }
-    100% {
+    50% {
         opacity: 100%;
     }
 }
